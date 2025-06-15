@@ -1,0 +1,114 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  header h1 {
+    margin: 10px 0;
+  }
+
+  #pfp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin-top: 10px;
+  }
+
+  #pfpContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .upload-label {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .post-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-form input,
+  .post-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .post-form button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .posts h2 {
+    margin-bottom: 10px;
+  }
+
+  .post-card {
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-card img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .post-card h3 {
+    margin: 10px 0 5px;
+  }
+
+  .post-card p {
+    color: #555;
+  }
+
+  .post-card button {
+    background: #ff4d4d;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
